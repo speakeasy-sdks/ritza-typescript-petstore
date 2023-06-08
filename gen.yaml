@@ -1,0 +1,9 @@
+configVersion: 1.0.0
+generation:
+  sdkClassName: SDK
+  singleTagPerOp: false
+typescript:
+  version: 0.0.1
+  author: Ritza
+  maxMethodParams: 0
+  packageName: Petstore
