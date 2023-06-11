@@ -2,13 +2,13 @@ configVersion: 1.0.0
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.47.0
-  generationVersion: 2.39.0
+  speakeasyVersion: 1.47.1
+  generationVersion: 2.39.2
 generation:
   sdkClassName: SDK
   singleTagPerOp: false
 typescript:
-  version: 1.1.0
+  version: 1.1.1
   author: Ritza
   maxMethodParams: 0
   packageName: Petstore
