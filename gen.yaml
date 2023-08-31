@@ -1,4 +1,9 @@
 configVersion: 1.0.0
+management:
+  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docVersion: 1.0.0
+  speakeasyVersion: 1.76.1
+  generationVersion: 2.89.1
 generation:
   comments:
     disableComments: false
@@ -8,8 +13,12 @@ generation:
   singleTagPerOp: false
   tagNamespacingDisabled: false
   telemetryEnabled: false
+features:
+  typescript:
+    core: 2.84.1
+    globalServerURLs: 2.82.0
 typescript:
-  version: 0.0.1
+  version: 0.1.0
   author: Ritza
   clientServerStatusCodesAsErrors: true
   maxMethodParams: 0
