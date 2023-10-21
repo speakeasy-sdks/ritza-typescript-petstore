@@ -21,15 +21,16 @@ yarn add https://github.com/speakeasy-sdks/ritza-typescript-petstore
 ```typescript
 import { SDK } from "Petstore";
 
-(async() => {
-  const sdk = new SDK();
+(async () => {
+    const sdk = new SDK();
 
-  const res = await sdk.pets.createPets();
+    const res = await sdk.pets.createPets();
 
-  if (res.statusCode == 200) {
-    // handle response
-  }
+    if (res.statusCode == 200) {
+        // handle response
+    }
 })();
+
 ```
 <!-- End SDK Example Usage -->
 
