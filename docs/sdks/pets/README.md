@@ -16,7 +16,7 @@ Create a pet
 ```typescript
 import { SDK } from "Petstore";
 
-(async() => {
+async function run() {
   const sdk = new SDK();
 
   const res = await sdk.pets.createPets();
@@ -24,7 +24,9 @@ import { SDK } from "Petstore";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
@@ -52,7 +54,7 @@ List all pets
 ```typescript
 import { SDK } from "Petstore";
 
-(async() => {
+async function run() {
   const sdk = new SDK();
 
   const res = await sdk.pets.listPets({});
@@ -60,7 +62,9 @@ import { SDK } from "Petstore";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
@@ -89,7 +93,7 @@ Info for a specific pet
 ```typescript
 import { SDK } from "Petstore";
 
-(async() => {
+async function run() {
   const sdk = new SDK();
 
   const res = await sdk.pets.showPetById({
@@ -99,7 +103,9 @@ import { SDK } from "Petstore";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
