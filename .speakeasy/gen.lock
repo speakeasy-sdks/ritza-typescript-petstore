@@ -4,15 +4,15 @@ management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.230.3
-  releaseVersion: 0.3.2
-  configChecksum: 4b4db850ef51ec85c5c93b8a18b79bca
+  generationVersion: 2.258.2
+  releaseVersion: 0.3.3
+  configChecksum: 4f7a9c5ea0098ad0b8fc871492082b1d
   repoURL: https://github.com/speakeasy-sdks/ritza-typescript-petstore.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/ritza-typescript-petstore
 features:
   typescript:
-    core: 3.4.5
+    core: 3.4.7
     globalServerURLs: 2.82.1
 generatedFiles:
   - src/sdk/pets.ts
