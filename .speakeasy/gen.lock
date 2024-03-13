@@ -3,17 +3,17 @@ id: 691c97db-b3e9-49ab-9ce6-6f4cfffae926
 management:
   docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.258.2
-  releaseVersion: 0.3.3
-  configChecksum: 4f7a9c5ea0098ad0b8fc871492082b1d
+  speakeasyVersion: 1.207.1
+  generationVersion: 2.280.6
+  releaseVersion: 0.3.4
+  configChecksum: 181a5aacfde963d80adf57c2554f200c
   repoURL: https://github.com/speakeasy-sdks/ritza-typescript-petstore.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/ritza-typescript-petstore
 features:
   typescript:
-    core: 3.4.7
-    globalServerURLs: 2.82.1
+    core: 3.4.8
+    globalServerURLs: 2.82.2
 generatedFiles:
   - src/sdk/pets.ts
   - src/sdk/sdk.ts
